@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="30"> 
+        <title>368.Mart - Siêu thị mini</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <script src="https://kit.fontawesome.com/8c3d59399d.js" crossorigin="anonymous"></script>
+        <!--Get your own code at fontawesome.com-->
+        <!--Get your own code at fontawesome.com-->
+        <style>
+            .head{
+                background-color: rgba(0, 230, 0, 0.6);
+            }
+            .head .t1{
+                color: rgba(255,255,255,0.9);
+            }
+            .head .t2{
+                float: right;
+            }
+            .h1 .h2{
+                float: left;
+            }
+            .h1 .h3{
+                align-items: center;
+            }
+            .h1 .h4{
+            }
+            .menu{
+                background-color: greenyellow;
+                padding-top: 0px;
+                text-align: center;
+                align-items: center;
+            }
+
+            .memu{
+                background-color: gray;
+            }
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: green;
+            }
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+            li a:hover{
+                background-color:#111111;
+            }
+
+            .end{
+                background-color: rgb(0, 202, 71);
+            }
+            .end2{
+                background-color: rgba(0, 167, 1, 0.6);
+            }
+            .fa {
+                padding: 10px;
+                font-size: 15px;
+                width: 15px;
+                text-align: center;
+                text-decoration: none;
+                margin: 5px 2px;
+                border-radius: 50%;
+                }
+
+                .fa:hover {
+                    opacity: 0.7;
+                }
+
+                .fa-facebook {
+                background: #3B5998;
+                color: white;
+                }
+
+                .fa-twitter {
+                background: #55ACEE;
+                color: white;
+                }
+
+                .fa-google {
+                background: #dd4b39;
+                color: white;
+                }
+
+                .fa-linkedin {
+                background: #007bb5;
+                color: white;
+                }
+
+                .fa-youtube {
+                background: #bb0000;
+                color: white;
+                }
+
+                ul.list{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: rgb(55, 64, 58);
+                }
+                li.list{
+                    float: left;
+                }
+                li a{
+                    display: block;
+                    color: white;
+                    text-align: center;
+                    padding: 16px;
+                    text-decoration: none;
+                }
+                li a:hover{
+                    background-color:#111111;
+                }
+        </style>
+    </head>
+    <body>
+        <div class="head">
+            <div width="30%" height="300" class="t1">
+                <font size="-1">SỐ 49, A20, NGHĨA TÂN, CẦU GIẤY, HÀ NỘI</font>
+                
+                <div width="70%" class="t2">
+                    <i class="fa fa-camera-retro"></i>
+                    <font color="white">368MART.VN@GMAIL.COM | </font>
+                    <i class="fa fa-clock-o"></i>
+                    <font color="white">08:00 - 18:00 | 
+                        <i class="fa fa-phone"></i> | 0799 181 368
+                    </font>
+                </div>
+            </div>
+            <br><br>
+            <div class="h1" width="1000" height="600">
+                <div class="h2" width="20%">
+                    <form>
+                        <select>
+                            <option>All</option>
+                        </select>
+                        <font>
+                            <input type="text" placeholder="Tìm kiếm sản phẩm" >
+                            <i class="fa fa-search"></i>
+                        </font>
+                    </form>
+                </div>
+                    <div class="h3" width="60%">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/368mart-01.png" alt="">
+
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-phone"></i>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+
+                    
+                    <!-- <div class="h4" width="20%">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-phone"></i>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <i class="fa-solid fa-cart-shopping"></i>
+                     </div> -->
+
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><font color="white"><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TRANG CHỦ</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></font></li>
+                <li><font color="white"><a href=""><b>SẢN PHẨM</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></font></li>
+                <li><font color="white"><a href=""><b>KHUYẾN MÃI</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></font></li>
+                <li><font color="white"><a href=""><b>LIÊN HỆ</b></a></font></li>
+            </ul>
+        </div>
+
+        <div class="memu">
+            <ul class="list">
+                <li><font color="white"><a href="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Miễn phí vận chuyển 3 km</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></font></li>
+                <li><font color="white"><a href=""><b>Cam kết chất lượng</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></font></li>
+                <li><font color="white"><a href=""><b>Hỗ trợ tư vấn 24/7</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></font></li>
+                <li><font color="white"><a href=""><b>Đặt hàng trực tuyến</b></a></font></li>
+            </ul>
+        </div>
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+            <span style="font-size: 20px; background-color: #F3F5F6; padding: 0 10px;">
+              SẢN PHẨM KHUYẾN MÃI <!--Padding is optional-->
+            </span>
+          </div>
+        <br><br>
+        <table align="center">
+            <tr>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_781061850fecd3df53efe77c2d75eb08-300x300.jpg" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_1e878b208e614129c2b37200683144c3-300x300.jpg" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_d06410ec74f030dbfb12354b87764c23-300x300.tmp" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_bf391aeeb294d991d8444f260a8b024d-300x300.jpg" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_065db27b40608f188028257c1fbb37df-300x300.jpg" alt="" width="200" height="200">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Chả vịt Vân Đình - gói
+                    <br>
+                    <b>80,000&#8363;</b>
+                    
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Chả cá đỏ Lý Sơn
+                    <br>
+                    500g - gói
+                    <br>
+                    <b>85,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm khô</font>
+                    <br>
+                    Khô gà lá chanh - 
+                    <br>
+                    500g
+                    <br>
+                    <b>125,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm khô</font>
+                    <br>
+                    Tỏi Lý Sơn - gói
+                    <br>
+                    <b>40,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Xúc xích phô mai
+                    <br>
+                    250g
+                    <br>
+                    <b>68,000&#8363;</b>
+                </td>
+            </tr>
+        </table>
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+            <span style="font-size: 20px; background-color: #F3F5F6; padding: 0 10px;">
+              SET QUÀ NOEL - TẾT 2022 <!--Padding is optional-->
+            </span>
+          </div>
+        <br><br>
+        <table align="center">
+            <tr>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_422f922a0d98aa1230b8761504207dc4-300x300.jpg" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_c4307d379b878b7ca5bc6a74cebeec8e-300x300.jpg" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_96a0fe4b7694e800653f87aa9ac9300d-300x300.jpg" alt="" height="200" width="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_3105db446c11f272e9771a586218044a-300x300.jpg" alt="" width="200" height="200">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_8221238c17c4428bc9badbfa84831a4e-300x300.jpg" height="200" width="200" alt="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font color="gray">
+                        Quà NOEL & TẾT 2022
+                    </font>
+                    <br>
+                    Set tròn
+                    <br>
+                    <b>1,525,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        Quà NOEL & TẾT 2022
+                    </font>
+                    <br>
+                    Set xanh lá
+                    <br>
+                    <b>435,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        Quà NOEL & TẾT 2022
+                    </font>
+                    <br>
+                    Set xanh
+                    <br>
+                    <b>370,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        Quà NOEL & TẾT 2022
+                    </font>
+                    <br>
+                    Set hồng
+                    <br>
+                    <b>895,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        Quà NOEL & TẾT 2022
+                    </font>
+                    <br>
+                    Set thuyền đỏ
+                    <br>
+                    <b>1,145,000&#8363;</b>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+            <span style="font-size: 20px; background-color: #F3F5F6; padding: 0 10px;">
+              BÁNH KẸO <!--Padding is optional-->
+            </span>
+          </div>
+          <br><br>
+          <table align="center">
+            <tr>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_496038f4a87c55279d85d2bf46830487-300x300.jpg" alt="" width="180" height="180">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_076659f556a0529b317d93196790b80b-300x300.jpg" alt="" width="180" height="180">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_bc39f4c701b416d31faa227594e5ad8d-300x300.jpg" alt="" width="180" height="180">
+                    &nbsp; &nbsp;
+                </td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_49dfa9e7e9ceb638dc8d3ead9bd6a166-300x300.jpg" alt="" width="180" height="180">
+                    &nbsp; &nbsp;</td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_2c41b0abdbca5e77151406817cd86173-300x300.jpg" alt="" width="180" height="180">
+                    &nbsp; &nbsp;</td>
+                <td><img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_232676e11fea3c2a5688904b38d18535-300x300.jpg" alt="" width="180" height="180"></td>
+            </tr>
+            <tr>
+                <td>
+                    <font color="gray">
+                        BÁNH KẸO
+                    </font>
+                    <br>
+                    Bánh que Pretz BBQ
+                    <br>
+                    <b>10,500&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        BÁNH KẸO
+                    </font>
+                    <br>
+                    Bánh que Pretz BBQ
+                    <br> chicken
+                    <br>
+                    <b>10,500&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        BÁNH KẸO
+                    </font>
+                    <br>
+                    Bánh Pretz Khoai tây
+                    <br>
+                    <b>10,500&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        BÁNH KẸO
+                    </font>
+                    <br>
+                    C'est Bon gà - gói
+                    <br>
+                    <b>23,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        BÁNH KẸO
+                    </font>
+                    <br>
+                    Bánh C'est Bon gà
+                    <br>
+                    pho mai - gói
+                    <br>
+                    <b>23,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">
+                        BÁNH KẸO
+                    </font>
+                    <br>
+                    Bánh xốp Lago Porker
+                    <br>
+                    Nocciola (1 gói x45g)-
+                    <br>
+                    chiếc
+                    <br>
+                </td>
+            </tr>
+          </table>
+
+          <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+            <span style="font-size: 20px; background-color: #F3F5F6; padding: 0 10px;">
+              THỰC PHẨM ĐÔNG LẠNH <!--Padding is optional-->
+            </span>
+          </div>
+          <br><br>
+
+          <table align="center">
+            <tr>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_065db27b40608f188028257c1fbb37df-300x300.jpg" alt="" width="190" height="190">
+                    &nbsp; &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_2a2c86ccd85691a3a7d26d7d16d8cf6b-300x300.jpg" alt="" width="190" height="190">
+                    &nbsp; &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_25dded38360eb51996b876197ed2bd4c-300x300.jpg" alt="" width="190" height="190">
+                    &nbsp; &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_541c1926687e5e57a5030bd1799c56e1-300x300.jpg" alt="" width="190" height="190">
+                    &nbsp; &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_ca6129ae88a2447617e65648d1db0369-300x300.jpg" alt="" width="190" height="190">  
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Xúc xích phô mai
+                    <br>
+                    250g
+                    <br>
+                    <b>68,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Chả cá đỏ Lý Sơn
+                    <br>
+                    200g - gói
+                    <br>
+                    <b>34,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Steak thăn lưng bò Angus
+                    <br>
+                    Úc 150g
+                    <br>
+                    <b>99,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Set Box Lẩu
+                    <br>
+                    <b>299,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">Thực phẩm đông lạnh</font>
+                    <br>
+                    Set Box Nướng
+                    <br>
+                    <b>68,000&#8363;</b>
+                </td>
+            </tr>
+          </table>
+
+          <div style="width: 100%; height: 20px; border-bottom: 1px solid black; text-align: center">
+            <span style="font-size: 20px; background-color: #F3F5F6; padding: 0 10px;">
+              THỰC PHẨM KHÔ <!--Padding is optional-->
+            </span>
+          </div>
+          <br><br>
+
+          <table align="center">
+            <tr>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_9dd9f9901b1be5723cc1e4fdf40d8e5b-300x300.jpg" alt="" width="150" height="150">
+                    &nbsp; &nsc;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_b2dfaf7694bed155080eee576b3bee97-300x300.jpg" alt="" width="150" height="150">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_1ee84d529c0939464c544579490a44a4-300x300.jpg" alt="" width="150" height="150">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_55e1b341999a079aa311a8ce3fb6cf24-300x300.jpg" alt="" width="150" height="150">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_ec68783471ca24c4f5112e9d409a9650-300x300.jpg" alt="" width="150" height="150">
+                    &nbsp; &nbsp;
+                </td>
+                <td>
+                    <img src="http://web.archive.org/web/20211126173001im_/https://368mart.vn/wp-content/uploads/2021/11/kiotviet_daed792502309113961a4c236bcb7f6a-300x300.jpg" alt="" width="150" height="150"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <font color="gray">THỰC PHẨM KHÔ</font>
+                    <br>
+                    OMACHI sườn hầm ngũ 
+                    <br>
+                    quả - gói
+                </td>
+                <td>
+                    <font color="gray">THỰC PHẨM KHÔ</font>
+                    <br>
+                    OMACHI mì trộn sốt 
+                    <br>
+                    Spageti - gói
+                </td>
+                <td>
+                    <font color="gray">THỰC PHẨM KHÔ</font>
+                    <br>
+                    Mì tôm hảo hảo chua cay 
+                    <br>
+                    - gói
+                </td>
+                <td>
+                    <font color="gray">THỰC PHẨM KHÔ</font>
+                    <br>
+                    Lạc tẩm hành hộp 200g
+                    <br>
+                    (gói)
+                    <br>
+                    <b>40,000&#8363;</b>
+                </td>
+                <td>
+                    <font color="gray">THỰC PHẨM KHÔ</font>
+                    <br>
+                    Lạc tẩm hành hộp 400g
+                    <br>
+                    (gói)
+                    <br>
+                    <b>80,000&#8363;</b>                    
+                </td>
+                <td>
+                    <font color="gray">THỰC PHẨM KHÔ</font>
+                    <br>
+                    Hành Lý Sơn - gói
+                    <br>
+                    <b>30,000&#8363;</b>
+                </td>
+            </tr>
+          </table>
+
+        <div class="end">
+            <table width="100%">
+                <tr>
+                    <td width="25%"><font color="white"><b>SIÊU THỊ 368 MART</b></font></td>
+                    <td width="25%" ><font color="white"><b>TIN TỨC 368 MART</b></font></td>
+                    <td width="25%"><font color="white"><b>CHÍNH SÁCH MUA HÀNG</b></font></td>
+                    <td width="25%" align="center"><font color="white"><b>LIÊN HỆ VỚI CHÚNG TÔI</b></font></td>
+                </tr>
+                <tr>
+                    <td>
+                        <font color="white">
+                            Các sản phẩm rượu không dành cho <br>
+                            người dưới 18 tuổi và phụ nữ đang <br>
+                            mang thai. Chấp hành nghị định số <br>
+                            94/2012/NĐ-CP của chính phủ, <br>
+                            368 Mart không mua bán rượu bia <br>
+                            qua mạng internet. Quý khách có <br>
+                            nhu cầu xin liên hệ 0799.181.368 <br>
+                            để được tư vấn trực tiếp
+                        </font>
+                        <br>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-youtube"></a
+                    </td>
+                    <td>
+                        <font color="white">
+                            Khuyến mãi khai trương cửa <br>
+                            hàng ngày 24/11
+                            <br>
+                            <br>
+                            Chương trình bán hàng đặc <br>
+                            biệt tháng 12 
+                            <br>
+                            <br>
+                            Just another post with A Gallery
+                        </font>
+                    </td>
+                    <td>
+                        <font color="white">
+                            Chính sách vận chuyển
+                            <br><br>
+                            Chính sách đổi trả 
+                            <br><br>
+                            Chính sách bảo mật
+                            <br><br>
+                            Quy định sử dụng
+                        </font>
+                    </td>
+                    <td>
+                        <font color="white">
+                            Hà Nội: Số 49, A20, Nghĩa Tân, Cầu <br>
+                            Giấy, Hà Nội
+                            <br><br>
+                            Hotline: 0799 181 368
+                            <br>
+                            <br>
+                            Email: 368mart.vn@gmail.com
+                            <br>
+                            <br>
+                            FB: facebook.com/368mart
+                        </font>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="end2">
+            <table width="90%" align="center">
+                <tr>
+                    <td width="40%">
+                        <font color="white">
+                            Copyright 2021 &copy; Siêu thị tiện ích 368MART 
+                            <br>
+                            Địa chỉ: Số 49, A20, Nghĩa Tân, Cầu Giấy, Hà Nội | Hotline: 0977 181 368
+                        </font>
+                    </td>
+                    <td width="20%"></td>
+                    <td width="30%" align="right">
+                        <i class="fab fa-cc-visa fa-xl"></i>
+                        <i class="fa-brands fa-cc-paypal fa-xl"></i>
+                        <i class="fa-brands fa-cc-stripe fa-xl"></i>
+                        <i class="fa-brands fa-cc-mastercard fa-xl"></i>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
